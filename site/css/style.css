@@ -1,3 +1,83 @@
-h1{
-    color: blueviolet;
+/*
+Pink: f5cbd7
+Black: 070d0d
+Cream: fff7ec
+Brown: 442f2a
+ */
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.bodoni-moda-sc-<uniquifier> {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.navigation {
+    background-color: #070d0d;
+    color: #f5cbd7;
+    text-align: right;
+    padding-right: 30px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.navigation a {
+    color: #f5cbd7;
+}
+
+header {
+    background-color: #070d0d;
+    color: #f5cbd7;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 1em;
+    font-size: 70px;
+    text-indent: 15px;
+}
+
+h1 {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+main {
+    background-color: #fff7ec;
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-bottom: 20em;
 }
