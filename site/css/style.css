@@ -12,8 +12,8 @@ Brown: 442f2a
 }
 
 
-.bodoni-moda-sc-<uniquifier> {
-    font-family: "Bodoni Moda SC", serif;
+.libre-bodoni-<uniquifier> {
+    font-family: "Libre Bodoni", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -59,7 +59,8 @@ header {
 }
 
 h1 {
-    font-family: "Bodoni Moda SC", serif;
+    color: #442f2a;
+    font-family: "Libre Bodoni", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
@@ -71,7 +72,7 @@ p {
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-        "wdth" 100;
+    "wdth" 100;
 }
 
 main {
@@ -79,5 +80,22 @@ main {
     margin-top: 2em;
     margin-left: 3em;
     margin-right: 3em;
+    margin-bottom: 2em;
     padding-bottom: 20em;
+}
+
+.intro {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+.intro img {
+    width: 500px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.intro-text {
+    max-width: 500px;
 }
