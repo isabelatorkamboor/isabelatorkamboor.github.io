@@ -46,6 +46,7 @@ Brown: 442f2a
     color: #f5cbd7;
 }
 
+
 header {
     background-color: #070d0d;
     color: #f5cbd7;
@@ -72,11 +73,10 @@ p {
     font-weight: <weight>;
     font-style: normal;
     font-variation-settings:
-    "wdth" 100;
+        "wdth" 100;
 }
 
 main {
-    background-color: #fff7ec;
     margin-top: 2em;
     margin-left: 3em;
     margin-right: 3em;
@@ -91,11 +91,65 @@ main {
 }
 
 .intro img {
-    width: 500px;
+    width: 200px;
     height: auto;
     margin-left: 40px;
 }
 
 .intro-text {
     max-width: 500px;
+}
+
+.cream-box {
+  background-color: #fff7ec;
+  padding: 20px;
+}
+
+h2 {
+    background-color: #f5cbd7;
+    color: #070d0d;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    width: 2in;             
+    padding: 0.4em;
+    margin-top: 1em;
+    text-align: right;     
+}
+
+.resume-header {
+    font-family: "Libre Bodoni", serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #f5cbd7;
+    padding-bottom: 4px;
+    color: #442f2a;
+    background-color: #fff7ec;
+}
+
+.resume-details {
+    font-family: "Roboto", sans-serif;
+    margin-top: 8px;
+    padding-left: 18px;
+    font-size: 15px;
+    color: #070d0d;
+}
+
+.resume-details li {
+    margin-bottom: 5px;
+}
+
+
+h3 {
+     font-family: "Libre Bodoni", serif;
+     text-align: center;
+     color: #442f2a;
+     font-size: 23px;
+     text-decoration: underline;
+}
+
+.card-text {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #070d0d;
+  text-align: center;
 }
